@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Krishan Kant Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Krishan Kant Pathak</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#">About me</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#">projects </a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#">Contact Us</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="">Home</a>
+                <a href="">About Me</a>
+                <a href="">Projects</a>
+                <a href="">Contact Us</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+        <section>
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                    </div>
+                <div class="content">
+                    <h6 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Krishan Kant Pathak</span></h6>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span></span></div>
+                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000"> hello my name is krishan kant pathak and i am a mechanical engineering student with inclination towards web development and machine learning</p>
+                    <p>
+                        <hr>  about me
+                        <p><h6>
+                         <flex>my name is Krishan Kant pathak , a B.tech mechanical enginering student from Univerisity of Lucknow. i am from jhansi i scored 85% marks in my class 10th and 80.2 in my class 12th and currently having a cummulative cgpa of 8.2 in my first year. My key skills include frond end web dev , matlab , auto cad , , html , css etc </flex></h6>
+                        </p>
+                        <hr>
+                        <p>
+                          Projects
+                          <h6>
+                        <flex>project 1 basic mechanical engineering 3d model 
+                            description:- it is a basic mechanicsl engineering 3d model for the basic study relating 3d modeling
+                        project 2 
+                    description:- it is a basic mechanicsl engineering  instrument 3d model for the basic study relating machine operations .
+                    project 3 
+                    description:- it is a basic mechanicsl engineering 3d model for the basic study relating projection view 3d modeling
+                <hr>
+                          </h6>
+                        </p>
+                        <h6> contact 
+                            name= ()
+                            email=()
+                            message=()
+                            SUBMIT
+                        </h6>
+    
+                    </p>
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                        <a href="#" ><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                        <button>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+        
+</body>
+
+</html>
